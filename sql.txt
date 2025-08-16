@@ -1,0 +1,7 @@
+create database college_management_system;
+
+use college_management_system;
+
+create table New_Admission(First_Name varchar(10),Last_Name varchar(10), Father_Name varchar(18),MobileNumber bigint(10),Gender varchar(8),Email_Id varchar(40), Address varchar(55),Student_Admission_Date date ,Date_of_Birth date,Last_Payment_Received_Date date,Course varchar(8),Course_Duration varchar(10),Semester varchar(3),Course_Fees int(8),Semester_Fees int(7),Pending_Fees int(7),Paid_Fees int(7));
+
+select * from New_Admission;
